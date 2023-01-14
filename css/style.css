@@ -176,17 +176,11 @@ p {
   }
 
   /* Q6 解答 */
-  .flex-item-box {
-    display: grid;
-  }
-  .item-box1 {
-    grid-column: 2 / 3;
-  }
-  .item-box2 {
-    grid-column: 3 / 4;
+  .item-box1, .item-box2 {
+    order: 1;
   }
   .item-box3 {
-    grid-row: 1;
+    order: 0;
   }
 
   /* Q7 解答 */
